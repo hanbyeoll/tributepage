@@ -1,0 +1,9 @@
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Tribute Page"
+title_separator          : "-"
+subtitle                 : Project Code fall 2020 - Tribute page
+name                     : "Han"
+description              : "Assignment1"
+url                      : "https://hanbyeoll.github.io/tributepage/"
