@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/*
+font-family; 'Indie Flower', sans-serif;
+*/
+
+
+header {
+  font-family: Indie Flower; sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+
+}
+
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+
+}
+
+
+figcaption {
+  font-family: Lato;
+  text-align: center;
+  font-size: 13px;
+  color: #4b4b4b;
+  padding: 10px;
+
+}
+
+
+#tribute-info {
+  font-family: Lato;
+  line-height: 24px;
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+  font-size: 16px;
+  background-color:rgba(218, 218, 218, 0.658);
+  box-sizing: border-box;
+
+}
+
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0e0e0e
+}
+
+h2 {
+  font-family: Indie Flower;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+  width: 80px;
+  border: 3px;
+}
+
+button {
+  background: #f0f0f0;
+  border:0;
+  outline:0;
+  cursor: pointer;
+}
+
+.tab_menu_btn {
+  width: 80px;
+  height: 40px;
+  transition:0.3s all;
+}
+
+.tab_menu_btn.on {
+  font-family: lato;
+  font-weight: 700;
+  color: #000000;
+}
+
+.tab_menu_btn:hover {
+  color:#4b4b4b;
+  border-bottom: 1px solid #6c00fa;
+}
+
+.tab_box {
+  display: none;
+  padding: 20px;
+}
+
+.tab_box.on {
+  display:block;
+}
+
+.tab_menu_container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+#about-artist {
+  padding-top: 20px;
+
+}
+
+#biography {
+  padding-top: 40px;
+
+}
+
+#art-works {
+  width: 60%;
+  margin: auto;
+  background-color: none;
+  padding-top: 40px;
+
+}
+
+.artworks-img { 
+  float: left; 
+  width: 33.3%; 
+  margin-right: -1px;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+#artwork-img {
+margin-bottom: 60px;
+
+}
+  
+.clear {
+  clear: both;
+}
